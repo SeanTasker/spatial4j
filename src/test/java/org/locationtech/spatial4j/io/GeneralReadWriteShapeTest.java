@@ -242,7 +242,7 @@ public abstract class GeneralReadWriteShapeTest extends BaseRoundTripTest<JtsSpa
     return strip(
         "{'type': 'LineString', " +
             "'coordinates': [[100.1,0.1],[101.1,1.1]], " +
-            "'buffer': 1111.950797, " +
+            "'buffer': 1111.950797344, " +
             "'properties': {'buffer_units': 'km'}}");
   }
 

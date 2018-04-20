@@ -95,7 +95,7 @@ public class JtsGeoJSONWriter extends GeoJSONWriter {
   }
 
   public void write(Writer output, Geometry geom) throws IOException {
-    NumberFormat nf = LegacyShapeWriter.makeNumberFormat(6);
+    NumberFormat nf = LegacyShapeWriter.makeNumberFormat(9);
     if (geom instanceof Point) {
       Point v = (Point) geom;
       output.append("{\"type\":\"Point\",\"coordinates\":");

@@ -52,7 +52,7 @@ public class LegacyShapeWriter implements ShapeWriter {
    * @return Not null.
    */
   public static String writeShape(Shape shape) {
-    return writeShape(shape, makeNumberFormat(6));
+    return writeShape(shape, makeNumberFormat(9));
   }
 
   /** Overloaded to provide a number format. */
